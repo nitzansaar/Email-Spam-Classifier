@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="725909ef-3e89-4d09-a241-5ee9e5977d58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0200.f2cdb426806f3a924340a62789b6add9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0202.e1c7980f6c8a70122d80771533795cb7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0203.5f055220d95eaa1de71c7f24e004a7f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0204.d0d4480181d7f3becf6f755de8a21019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0205.84f75723dcf7639ed057a32283048bdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0206.074e2d251c644abdbd8dab68d035e209" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0207.f7d2d40df256d6caea05314f5334a959" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0208.0577aa26cbb2382d8789377d351ca8bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0210.35f5f8aef973035bc4ec4ad13d717ebf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0211.abf5659ad8e94f01551b685061f06d94" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0212.28ec74e3e60f9ea866ee8ef8e429254b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0213.ee51a591f777be501b45101a6fe01776" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0214.2d5f01a083341062ac55f45a123f2dcd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0215.201f7adff1b30b986939a5fa17a80a86" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0216.d46ac2cc3fa5d42e1a9b7d8b4339f789" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0218.9fc48080321710ad8478e7c1c61e4bf0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0219.c885fbe9fa7e255d6f589b373c8608e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0220.1cca495dc30f98fc43adb00683029dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0222.160c5b2e2a80f71367b4d9a47f8f9d4e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0223.a009cff7a913fae0e58d901e5e847a82" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0224.17430432fb67f4f3278eac9cba4714aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0225.80a615200726ed2da1bfd347dcfd648c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0227.95301af4d5382e2029db75a4ecf7560f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0228.b83f2f4ef114c69d9ca927d1082b393f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0229.49528f1403038d8d080420b023aa8d4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0230.a6e285288a40fccdbea8cf93de581ad2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0231.1bc071b16de2cc1e2adab334be65f7c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0233.8ee5f381dff013a0ccac9a01ac2d2976" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0234.4d23ca5049f3349529f5612ab5e2120d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0237.a21d745179e22d780194543b7ad765ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0238.7b9b9b2e3b3ca24ae8960f03aab57964" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0239.58f51c99b02fc8b49664f15a855af780" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0240.01e0e10c03592e64df9a077f2cd56aba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0241.f1989a8ee4ea188e90f3a5d4d40f4e36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0242.a02f8a0ce9077130c10d33db2a16ec36" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0243.7cc0334826a0571058dc604dce04c446" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0244.82d1da61c4fd05691083eeb9886e0788" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0245.39190ace43266b978a8561863c8841c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0246.3422f94c01ebd283ffac23522268f3f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0247.98ed5d80f80da3915b5a1d10ee19c50a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/0248.a7515095844cf4106ed86f1348b8c85d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1120.bec3610a9fcdb3cf5c74d9e60bfbfa1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1121.51f7e5e557bde451a6b36e527211ed04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1122.0306e263408d376f3abc5eddba544a59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1123.bad0078427c9876eb7986cd7e9000553" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1124.ca18e9fe0618bbac33ef2156d047cc7d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1125.32b3964c09cb6a90f69b0631171283e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1126.b707ed79d4930e8b4fda1eb0dcd5add8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1127.1b3f0a69bea37c4e0a04b66ebc841196" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtest/1129.50af16cc80052d1d25f28edcd3d1f439" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0001.ea7e79d3153e7469e7a9c3e0af6a357e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0002.b3120c4bcbf3101e661161ee7efcb8bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0004.e8d5727378ddde5c3be181df593f1712" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0005.8c3b9e9c0f3f183ddaf7592a11b99957" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0006.ee8b0dba12856155222be180ba122058" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0007.c75188382f64b090022fa3b095b020b0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0008.20bc0b4ba2d99aae1c7098069f611a9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0009.435ae292d75abb1ca492dcc2d5cf1570" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0100.1728f45047ff2a1601d4e3ee91f26a00" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0101.48557f7f38d947eab77aefc03d0520a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0103.3fc5444196f4726ee138fbabc5086ea1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0104.cbb1681451b2525d7aeec9eeb285306d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0106.808c5e5ed0b801f667a34ead8221972e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0108.e6e9cb097a3b5e37d94a7ff29bc4412a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0109.4ccc46c546b93015aafdfc40495f187d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0110.0bb9a36c3037be09867c0251e0fd6a3a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0112.b6c2ea75f9f7efcd3d0e4c43a751479c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0113.55a6bf6a4534d447af2060b174c0d70a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0114.72c7d2d85d9d99ce3ce268d09147bdea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0115.41825f367f7f1efcc31e12376d82a994" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0117.fbc79c02a2c13d6c9b36f9ba38a09170" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0118.4ebb343d73a83dc935197850e507aad6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0120.27898b8f966a9c687b1f93fcba5afd43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0121.b475478456e52de66ef0b0fb501bbfd3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0123.32e1738c4171dd9d70b727fd7973a291" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0124.2912ab5571d121e3b8c32c575b2526a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0125.1ada59664dfcb7a5a31e9820f9604fea" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0126.fc7d58812b4c004ee457355c9baf2e1e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0127.2ac0e9f6527f224201604786789540b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0128.f2500674ec39065ae8a1f643c7100a2b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0129.00f1783f1c15a77f1c5ec212f5bcf1d1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0130.6007e5b54c03026fd924cf2d6b0b4008" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0131.b715566061ab90d0f8745ce0ac010832" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0132.bcd23223120c0be6b991ae0349cd127c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0134.56b4bed3bd3a696ab5b271a6e37fa005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0135.73f72161ad5758f0645151e87f5ff4b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0136.25b4244e9510e810f89f6570d476c0e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0138.5bc0323b8aa075bd1e99610b50aa1150" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0139.4a3f2cb7efe7318e1ed9b698d1d4a1db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0140.009d880f185eca560c8496da54b447ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0141.911fa855ce043ee41b450e6a1b0096d0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0142.bcc958dabbad574174becaa16334a7e6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0143.20b19246597ddb47db7da83f7a140e73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0144.150618690d46b8b2207c8a27ca5ab837" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0145.7400cf6ab4cfe5ffeaab582c9730c656" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0146.2d301a1e07672538d669f5e571180d32" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0147.16b764c5bd3e419cc5b6d0145b2d8145" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0148.565dd83aaebb66fe284de9342a6a5c09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0149.d59bb0d23ca8ad3a87e549d3e6172f26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0150.69bb21344f49b27cec7373599b6e433d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0151.4d1c8772327e44b20af6420e1d1c0a75" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0152.10d3220188413990b1deb862c509c818" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0153.f78ed3d22e441ab7bd6d006323a83621" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0154.9e065ee6214360e43b9873e39880159e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0155.56e909508466675c86032e9f031cd09a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0157.18c5e181c72acfc3a501a82907e58a59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0158.05f321b3cb42b6b62bc8a250a7bad59f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0159.72f1a01f64bfa9e06b21c4e778e14cd2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0160.0040550972ece2c27ed01745f93b474b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0162.4eb119208c169c5da0dc13a875cdcb34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0163.1aff5d9dc36e51a0b43f1c31c4d5b28c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0164.ae42a102de7318dc4876af403b6e5956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0165.60d0c03c63a588f58ca91b791610e43c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0166.f4acdf86d261b60094536bf5a654cc33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0167.13f1e71a8070d4d34e65ec7a25d9e164" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0168.91cce4c84906ce507bd5e6362dd345c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0169.b19a689237947db7b9e244277e075edc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0170.154c82ae0e1ccc4c9290aa1fa4de7b43" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0172.464b84890a849676c036baccf0f2344e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0173.3898127723ae4ac964f41c1a555c6ecb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0174.a916896b6119d1b8a138dfbbeeee7fa1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0175.dd1831e0f3322282d3efa5da7aec74f9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0176.bd5ef61e0c89ec035829f06f3fe5c7f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0177.fd72517a2ed2a2c29c9822b7124a8f0a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0178.8405bbe39a5eb6c1814e3c16602099a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0179.dee566fc951284d1d3bd3a0fdae63f4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0180.5790a5f746fbfb83381a28a45889fd6d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0181.d16658bb110eb37495081efa07319db1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0182.6a44fa290eebac4c52eb17292623b630" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0183.fea0e7b48e16103e73462d5ee52b0d18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0184.9006c74135af56c874879f0d45c1a689" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0185.2ed7f65beefa89e31abb4fbc75c18956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0186.5abf85594c3b8c40a105eed1154569ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0187.3e01234a92697a2a414ed394ad7177ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0188.a7f061d0c2c0395922993a874d534dcb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0189.01e4dc6ee1379e5ee100b4c33c9c3afd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0190.41da72c46bce52a15056a0171b56a917" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0191.314e2f68086989044e631e347a03b979" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0192.550b44c030296255a8b7ac293f296a01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0193.74f52046990258e5eb60e561dcd8c2fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0194.1f268aec480b5dcc15dcfd1b3ba5f005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0195.9805aa7e0cec44d00677990ad4db450d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0196.0e960d0db312a26fade743e699ac5428" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0197.59ea60c031993abdccb762f9dbb35340" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0198.62d2556d8ae158aa2b1410cb82bfff59" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/0199.4596bad9aa0a3cba6d7c678253725f5e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/1110.607e74a3949cd6e4787031e0164f09ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/1112.2e9833f8ba14f5c8fb76c35322ed4a8c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/1113.13231f60c358f003d7a4ee9c678bcf66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hamtrain/1114.3ee361561ee25d914e377dd8473a9cb6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0100.c60d1c697136b07c947fa180ba3e0441" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0101.2dfd7ee79ae439b8d9c38e783a137efa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0102.2e3969075728dde7a328e05d19b35976" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0103.8c39bfed2079f865e9dfb75f4416a468" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0104.886f4a22362f4d3528c3e675878f17f7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0105.9790e1c57fcbf7885b7cd1719fb4681b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0106.fa6df8609cebb6f0f37aec3f70aa5b9a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0107.f1d4194b57840ea6587b9a73ed88e075" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0108.4506c2ef846b80b9a7beb90315b22701" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0109.601a9cd8272f22236b27e95dbe2fa22d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0110.20934dc65c9a88fc9c6afda9952ce2c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0111.a163d41592b3a52747d7521341a961af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0112.ec411d26d1f4decc16af7ef73e69a227" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0113.ff113297f0ed07536d288c7b2193a8ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0114.c104ada3a249e1e1846c0cd156a303e9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0115.d7c257361675ee5d45baa552205fb472" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0116.8e13644b995f98dbab198b71e26f67ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0117.33011fddf61efe5f453a14468ff7e629" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0118.4be8b50c2a818c62b62e70c4b5456113" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0119.07aedc59172c0c25ef617188ada9b80f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0120.4312b48b82c3d018d2d4ccf5b8e9c167" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0121.772c3ccd1b6c1a2e0e2ec0356082c77b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0122.21b041c1ad2be417102d7f5d3f0b7045" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0123.68e87f8b736959b1ab5c4b5f2ce7484a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0124.37afd066a74d18b7f14bea0b1fb43d4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0125.44381546181fc6c5d7ea59e917f232c5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0126.713b324e028cc69213e67ad3d7319f5d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0127.2923761a91d13d3522d8bd077eedc7b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0128.4da9b2cfacbe9bfd128aacbb526d68d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0129.78a705ff6b3bde3395d067459e6e46e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0130.e258624171c813fc6057728c0ff0c059" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0131.0b7281078874ca88f95d6fdf5d905d50" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0132.7ac2141ed9a163f934ac65b3f59a2a03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0133.95454d70cc62190c0e167d4c3cb591af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0134.83a63d7a1589ba4cd6aefe20c8e6385f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0135.73d44c9405f00110ae76a3addcb4eed6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0136.7e7d6adf293fa0a3dc56b3f796cf00d1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0137.42d5881a50744e24d9280701bb534cfb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0138.eab076de94bd9f1d19908f682e58031f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0139.40f371501f8a2a3fb4ff62143c0671b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0140.a2bb669eaf743ed123fca884a40cfbd4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0141.516a4fe92f63469bd4a21d46dd6bb3be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0142.1fd05cffaba260b9ecd3e75b6dddaf73" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0143.260a940290dcb61f9327b224a368d4af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0144.58d3de25279e1938f24502d70dfa9754" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0145.ec89d85ec20f9aeda6fe37c0b6e8bbed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0146.6656452972931e859e640f6ac57d2962" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0147.65cf30538f09402e4d1bd4aa91d9532a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0148.7641581f551a1bf533b995087a8a91db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtest/0149.3300ef4537e1f6accd4489125bef5b0d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0000.7b1b73cf36cf9dbc3d64e3f2ee2b91f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0001.bfc8d64d12b325ff385cca8d07b84288" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0002.24b47bb3ce90708ae29d0aec1da08610" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0003.4b3d943b8df71af248d12f8b2e7a224a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0004.1874ab60c71f0b31b580f313a3f6e777" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0005.1f42bb885de0ef7fc5cd09d34dc2ba54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0006.7a32642f8c22bbeb85d6c3b5f3890a2c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0007.859c901719011d56f8b652ea071c1f8b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0008.9562918b57e044abfbce260cc875acde" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0009.c05e264fbf18783099b53dbc9a9aacda" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0010.7f5fb525755c45eb78efc18d7c9ea5aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0011.2a1247254a535bac29c476b86c708901" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0012.7bc8e619ad0264979edce15083e70a02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0013.9034ac0917f6fdb82c5ee6a7509029ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0014.ed99ffe0f452b91be11684cbfe8d349c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0015.1b871d654560011a0aaa29bb4e9054f7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0016.f9c349935955e1ccc7626270da898445" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0017.49ab70c7a4042cb1c695a0e59a6ede54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0018.259154a52bc55dcae491cfded60a5cd2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0019.939e70d8367f315193e4bc5be80dc262" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0020.4120dc06a0124a8688e96f8cff029113" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0021.15185fdb3fb02dffd041fa8f70d19791" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0022.4b5cf3c16feb88dd6932a8c46a41946c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0023.4299adbda55862876440ecbc2fce6a67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0024.fc4bd0b22cd7907e99f8a35b74655b15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0025.97302502dc8e20ab7e7eb05f926e1bab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0026.4f10fab6e6776379c17ee9c9ac7da4a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0027.028e0b165e8ea6f479e09a8f8cc7e50d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0028.83a43dd97923463030349506a56226c1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0029.2b149de91fef9f40880d27ce8c27aeb2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0030.5d3444135a8ad95fc4ebf9a884076621" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0031.e68d1195ad2c1900a44de8631f8acd91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0032.081c3615bc9b91d09b6cbb9239ba8c99" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0033.489e59d3c7060b70e166ef7317c86807" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0034.d5a5e526aa6b249ed6ca184548a44b1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0035.8e582263070076dfe6000411d9b13ce6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0036.8e582263070076dfe6000411d9b13ce6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0037.7ce3307b56dd90453027a6630179282e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0038.7ce3307b56dd90453027a6630179282e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0039.256602e2cb5a5b373bdd1fb631d9f452" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0040.256602e2cb5a5b373bdd1fb631d9f452" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0041.21cc985cc36d931916863aed24de8c27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0042.21cc985cc36d931916863aed24de8c27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0043.8d93819b95ff90bf2e2b141c2909bfc9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0044.889d785885f092c269741b11f2124dce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0045.75baa6797e2a65053a8373d5aa96f594" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0046.0b4fff9cd7cffe94cc4f04bbf3928c28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0047.376bd7728ee94b32bc23429d9c51bae5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0048.462325dc69a8dc74462723ec0d20a5cd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0049.625bab436c7fc6299cfceeaa24e198ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0050.b8200e218e5a5a433f897e9495253a30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0051.374f4d4300a5d39544b2f052e7a9429d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0052.f12ac251d1fbdc679daadc6b97229e63" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0053.92bcea73123d0ea0fb26c285d5e045a9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0054.839a9c0a07f13718570da944986a898a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0055.8b2154bb7ec1f411495f37f519f1835d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0056.0f99dde58a7c4e18944397ab47e0412c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0057.92fdae44bdd1d9e5461eef3c852dfd23" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0058.abb13c5db31d26a58607aac809573ed4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0059.a633106e3ce62fa7b46c2e4dc8c666d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0060.140f80780520fa19b360ddcb05838a67" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0061.c148ebba16540e48c7aae2e3f733a8a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0062.41f708df91642411f0fd8f91e28d3521" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0063.3bec5361a5edfdbcc371241b3d74e3bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0064.d700742b9815d990b2e5a7921e8d854c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0065.18d2edcf9aa0e940651b5fdd218ac019" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0066.93ccd9599561c5277989f03b575d6bff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0067.02c6e51107f39ee60453ff8e7372101d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0068.1626952077798d4f2d5eb30e48bc49b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0069.a0b6cfde0e477af7f406ee756ba53826" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0070.977e083b104717202fe944ae6065624e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0071.4c3840b98dc207623d0c0e66a6d40af2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0072.f97a14d667569ebbc0502bb2c7beec27" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0073.d57c16429fa19fbebfb9aec34f391aa2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0074.9948514a1f3aac3f27ba2c20db7b0441" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0075.4568998f41d50bccf8f7c3d4aeb7a425" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0076.770f0e7b8378a47a945043434f6f43df" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0077.a5c41f056918bde0d5f9be424714766e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0078.8ff64b5c77f9c9618bd7b119ae14c8b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0079.4a5fbaf2e531918c44642b3cfae40089" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0080.77af9ca7f967f055062aade45001129e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0081.3309521659461b743e1bfc3dc688a5f1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0082.705cdc08c2ee77821391a847d9c1a4e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0083.a042c7512d5db5f9fc1857fdc6bbdcc3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0084.df5ac85de3405b6d07c9fa7ba3eecf6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0085.6e7b1a983ab05445a7eaffcbb6811d3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0086.4b3a02be9a2561ada188d95b4601c01e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0087.1cbd88a0c1564cb5d6c9b12c8c4175d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0088.f421d8c380fb0c48483f026d243df9d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0089.51c746428bb5e2793a1c04ce1e0c72c1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0090.9a7e76d58065e29e709161dbe569fe54" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0091.113ec7122d4046a2754bcf70b9fb5299" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0092.bf7453c6b7917ca30074a3030d84e36d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0093.2bb8a2a7e4d2841a14f27f32076dd77e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0094.3ba780eac7dce1c2b063cd1fc12738be" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0095.e1db2d3556c2863ef7355faf49160219" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0096.b2cb600e893f7a663ea5f9bff3a6276e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0097.dce08392ba6bc552d13394fa73974b62" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0098.01d2958ccb7c2e4c02d0920593962436" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spamtrain/0099.c4ff6dba0a5177d3c7d8ef54c8920496" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FreqDist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Predictor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EaIlj8A72jxghrLeNC1QQoH0al" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/cbrooks/courses/Fall22/CS514/assignments/Assignment 2/untitled",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Assignment 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Assignment 2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="725909ef-3e89-4d09-a241-5ee9e5977d58" name="Changes" comment="" />
+      <created>1662827422272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662827422272</updated>
+      <workItem from="1662827424592" duration="2884000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
