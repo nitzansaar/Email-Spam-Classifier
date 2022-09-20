@@ -43,7 +43,7 @@ public class FreqDist {
         if (frequencies.containsKey(newWord)) {
             return frequencies.get(newWord);
         } else {
-            return 1;
+            return 1;// this is to fix the error if the word does not exist
         }
     }
 }

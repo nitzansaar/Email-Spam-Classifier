@@ -1,10 +1,11 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 /* Extend this to evaluate the fraction of spam and ham emails your classifier identifies correctly. */
 
 public class TestManager {
 
-    public static void main(String args[]) {
+    public static void main(String args[]) throws FileNotFoundException {
         FreqDist spam = new FreqDist();
         FreqDist ham = new FreqDist();
         String filename;
@@ -19,7 +20,7 @@ public class TestManager {
         for (int i = 0; i < spamFiles.length; i++) {
             filename = spamFiles[i];
             p = new Processor("spamtrain/" + filename);
-            words = p.parseFile();
+            words = p.parseFile("spamtrain/" + filename);
             for (int j = 0; j < words.size(); j++) {
                 spam.add(words.get(j));
             }
@@ -32,7 +33,7 @@ public class TestManager {
         for (int i = 0; i < hamFiles.length; i++) {
             filename = hamFiles[i];
             p = new Processor("hamtrain/" + filename);
-            words = p.parseFile();
+            words = p.parseFile("hamtrain/" + filename);
             for (int j = 0; j < words.size(); j++) {
                 ham.add(words.get(j));
             }
@@ -46,7 +47,7 @@ public class TestManager {
             filename = spamTestFiles[i];
 
             p = new Processor("spamtest/" + filename);
-            words = p.parseFile();
+            words = p.parseFile("spamtest/" + filename);
             spamval = pr.computeLogLikelihood(spam, words);
             hamval = pr.computeLogLikelihood(ham, words);
             System.out.println(spamval + " " + hamval);
@@ -64,7 +65,7 @@ public class TestManager {
         for (int i = 0; i < hamTestFiles.length; i++) {
             filename = hamTestFiles[i];
             p = new Processor("hamtest/" + filename);
-            words = p.parseFile();
+            words = p.parseFile("hamtest/" + filename);
             spamval = pr.computeLogLikelihood(spam, words);
             hamval = pr.computeLogLikelihood(ham, words);
             System.out.println(spamval + " " + hamval);
@@ -77,9 +78,9 @@ public class TestManager {
         }
 
         /* you extend this to keep track of the number of correctly classified spam and ham, and display the totals
-        * at the end. */
+        * at the end. Only thing to do here*/
 
-    }
+   }
 }
 
 

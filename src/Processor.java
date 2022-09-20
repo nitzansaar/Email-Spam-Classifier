@@ -1,4 +1,9 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Scanner;
+
+import static java.lang.Character.isLetter;
 
 /* The Processor class will open a file and tokenize it. */
 
@@ -35,6 +40,11 @@ public class Processor {
     
     /* you do this one */
     public boolean isStopword(String word) {
+        for (int i = 0; i < stopwords.length; i++){
+            if(word.equals(stopwords[i])){
+                return true;
+            }
+        }
         return false;
     }
 
@@ -42,6 +52,11 @@ public class Processor {
     /* let's assume a word is junk if it contains anything except a letter. */
 
     public boolean isJunk(String word) {
+        for (int i = 0; i < word.length(); i++){
+            if(!isLetter(word.charAt(i)){
+                return true;
+            }
+        }
         return false;
     }
 
@@ -49,9 +64,12 @@ public class Processor {
     /* remove trailing punctuation. You can assume that there is at most one punctuation character at the end of the
     word
      */
-
+// i think this one is good, need to check with other emails tho
     public String stripPunctuation (String w) {
-        return "";
+        if (!isLetter(w.charAt(w.length()-1)) && w != null && w.length() > 0){
+            w = w.substring(0, w.length()-1);
+        }
+        return w;
     }
 
 /* you do this one */
@@ -60,11 +78,20 @@ public class Processor {
         Return an ArrayList of Strings representing all words that meet these criteria. processed accordingly. */ 
 
     
-    public ArrayList<String> parseFile() {
-         ArrayList<String> words = new ArrayList<String>();
+    public ArrayList<String> parseFile(String fname) throws FileNotFoundException {
+        String temp, t, r;
+        File file = new File(fname);
+        Scanner sc = new Scanner(file);
+        ArrayList<String> words = new ArrayList<String>();
 
-         /* your code goes here  */
-
+        while(sc.hasNext()){
+            temp = sc.next();
+            t = temp.toLowerCase();
+            r = stripPunctuation(t);
+            if(!isJunk(r) && !isStopword(r)){
+                words.add(r);
+            }
+        }
         return words;
 
     }
