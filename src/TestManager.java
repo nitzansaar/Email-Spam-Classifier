@@ -1,3 +1,7 @@
+/**
+ * Nitzan Saar - Assignment 2
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -13,6 +17,10 @@ public class TestManager {
         Processor p;
         Predictor pr = new Predictor();
         double spamval, hamval;
+        int correctSpam = 0;
+        int correctHam = 0;
+        int spamEmails = 0;
+        int hamEmails = 0;
 
         /* read in 100 spam and store in a FreqDist. */
         File spamFolder = new File("spamtrain");
@@ -53,9 +61,11 @@ public class TestManager {
             System.out.println(spamval + " " + hamval);
             if (spamval > hamval) {
                 System.out.println("Correct");
+                correctSpam++;
             } else {
                 System.out.println("Incorrect");
             }
+            spamEmails++;
         }
 
         /* take 50 ham test emails, compute loglikelihood */
@@ -71,11 +81,16 @@ public class TestManager {
             System.out.println(spamval + " " + hamval);
             if (spamval < hamval) {
                 System.out.println("Correct");
+                correctHam++;
             } else {
                 System.out.println("Incorrect");
             }
-
+            hamEmails++;
         }
+        System.out.println("\nResults:");
+        System.out.println("Spam: " + correctSpam + " correct out of " + spamEmails + " emails");
+        System.out.println("Ham: " + correctHam + " correct out of " + hamEmails + " emails");
+        System.out.println("Total score: " + (correctSpam + correctHam) + "%");
 
         /* you extend this to keep track of the number of correctly classified spam and ham, and display the totals
         * at the end. Only thing to do here*/
