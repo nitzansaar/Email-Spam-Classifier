@@ -87,14 +87,14 @@ public class TestManager {
             }
             hamEmails++;
         }
-        System.out.println("\nResults:");
-        System.out.println("Spam: " + correctSpam + " correct out of " + spamEmails + " emails");
-        System.out.println("Ham: " + correctHam + " correct out of " + hamEmails + " emails");
-        System.out.println("Total score: " + (correctSpam + correctHam) + "%");
 
         /* you extend this to keep track of the number of correctly classified spam and ham, and display the totals
         * at the end. Only thing to do here*/
-
+        System.out.println("--------------------------------------");
+        System.out.println("Results:");
+        System.out.println("Spam: " + correctSpam + " correct out of " + spamEmails + " emails");
+        System.out.println("Ham: " + correctHam + " correct out of " + hamEmails + " emails");
+        System.out.println("Total score: " + (correctSpam + correctHam) + "%");
    }
 }
 

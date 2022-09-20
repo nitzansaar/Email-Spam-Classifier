@@ -18,21 +18,23 @@ public class ProcessorTest {
     public static FreqDist f = new FreqDist();
 
     public static void main (String[] args) throws FileNotFoundException {
-        //testProc();
-        //testFreq();
+        testProc();
+        testFreq();
         testPred();
     }
 
     public static void testProc() throws FileNotFoundException {
-
+        System.out.println("Testing Processor:");
+        String testStripPunc = p.stripPunctuation("Hello!");
         boolean testJunk = p.isJunk("Howdy");
         boolean testJunk2 = p.isJunk("94uhqfbwe");
         boolean testStop = p.isStopword("herself");
         boolean testStop2 = p.isStopword("Michaelangelo");
-        p.setFilename("File1");
+        p.setFilename("This is a test");
 
         System.out.println(p.getFilename());
         System.out.println(words.toString());
+        System.out.println("Should say Hello: " + testStripPunc);
         System.out.println("Should say false: " + testJunk);
         System.out.println("Should say true: " + testJunk2);
         System.out.println("Should say true: " + testStop);
@@ -40,18 +42,21 @@ public class ProcessorTest {
     }
 
     public static void testFreq() throws FileNotFoundException {
-
+        System.out.println("Testing FreqDist:");
         for (int i = 0; i < words.size(); i++){
             f.add(words.get(i));
             frequencies.put(words.get(i), i);
         }
         f.setTotalCount(f.getTotalCount());
         System.out.println(f.getFrequencies());
-        System.out.println(f.get("id"));
-        System.out.println(f.getTotalCount());
+        System.out.println("Should say 7: " + f.get("id"));
+        System.out.println("Should say 1: " + f.get("poop"));
+        System.out.println("Should say 9: " + f.get("tue"));
+        System.out.println(f.getTotalCount() + " " + words.size());
 
 }
     public static void testPred(){
+        System.out.println("Testing Predictor:");
         Predictor p = new Predictor();
         System.out.println(p.computeLogLikelihood(f, words));
 

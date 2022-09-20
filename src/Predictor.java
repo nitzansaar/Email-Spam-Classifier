@@ -7,7 +7,7 @@ public class Predictor {
 
     public Predictor(){}
     public double computeLogLikelihood(FreqDist fd, ArrayList<String> wordsToScore) {
-        double score = 0;
+        double score = 1;
         double numerator;
         double denominator;
         double log;
