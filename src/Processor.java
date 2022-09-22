@@ -64,10 +64,9 @@ public class Processor {
     /* remove trailing punctuation. You can assume that there is at most one punctuation character at the end of the
     word
      */
-// i think this one is good, need to check with other emails tho
     public String stripPunctuation (String w) {
-        if (!isLetter(w.charAt(w.length()-1)) && w != null && w.length() > 0){
-            w = w.substring(0, w.length()-1);
+        if (!isLetter(w.charAt(w.length() - 1))){
+            w = w.substring(0, w.length() - 1);
         }
         return w;
     }
@@ -79,17 +78,17 @@ public class Processor {
 
     
     public ArrayList<String> parseFile(String fname) throws FileNotFoundException {
-        String temp, t, r;
+        String initial, secondary, lastChange;
         File file = new File(fname);
-        Scanner sc = new Scanner(file);
+        Scanner scanner = new Scanner(file);
         ArrayList<String> words = new ArrayList<String>();
 
-        while(sc.hasNext()){
-            temp = sc.next();
-            t = temp.toLowerCase();
-            r = stripPunctuation(t);
-            if(!isJunk(r) && !isStopword(r)){
-                words.add(r);
+        while(scanner.hasNext()){
+            initial = scanner.next();
+            secondary = initial.toLowerCase();
+            lastChange = stripPunctuation(secondary);
+            if(!isJunk(lastChange) && !isStopword(lastChange)){
+                words.add(lastChange);
             }
         }
         return words;

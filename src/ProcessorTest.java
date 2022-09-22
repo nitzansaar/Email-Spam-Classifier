@@ -50,15 +50,18 @@ public class ProcessorTest {
         f.setTotalCount(f.getTotalCount());
         System.out.println(f.getFrequencies());
         System.out.println("Should say 7: " + f.get("id"));
-        System.out.println("Should say 1: " + f.get("poop"));
+        System.out.println("Should say 1: " + f.get("nonexistent"));
         System.out.println("Should say 9: " + f.get("tue"));
-        System.out.println(f.getTotalCount() + " " + words.size());
+        System.out.println("Two equal numbers: " + f.getTotalCount() + " & " + words.size());
 
 }
-    public static void testPred(){
+    public static void testPred() throws FileNotFoundException {
         System.out.println("Testing Predictor:");
-        Predictor p = new Predictor();
-        System.out.println(p.computeLogLikelihood(f, words));
+        Predictor predictor = new Predictor();
+        Processor processor = new Processor("Test.txt");
+        ArrayList<String> wordList = processor.parseFile("Test.txt");
+        FreqDist freqDist = new FreqDist();
+        System.out.println(predictor.computeLogLikelihood(freqDist, wordList));
 
     }
 

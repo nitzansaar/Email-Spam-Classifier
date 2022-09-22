@@ -7,7 +7,7 @@ public class Predictor {
 
     public Predictor(){}
     public double computeLogLikelihood(FreqDist fd, ArrayList<String> wordsToScore) {
-        double score = 1;
+        double score = 0;
         double numerator;
         double denominator;
         double log;
@@ -20,8 +20,6 @@ public class Predictor {
             numerator = fd.get(wordsToScore.get(i));
             denominator = fd.getTotalCount();
             log = Math.log(numerator / denominator);
-            //System.out.println(wordsToScore.get(i));
-            //System.out.println(numerator);
             score += log;
         }
         return score;
