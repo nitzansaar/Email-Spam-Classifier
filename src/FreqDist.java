@@ -1,3 +1,6 @@
+/**
+ * Nitzan Saar
+ */
 /* A freqDist is a wrapper for a Map that will tell us, for a given list of words, how often each word appeared
 in a corpus. You should not need to modify this - you'll only need to use it. */
 
