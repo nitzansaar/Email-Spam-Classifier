@@ -62,7 +62,7 @@ public class ProcessorTest {
         ArrayList<String> wordList = processor.parseFile("Test.txt");
         FreqDist freqDist = new FreqDist();
         System.out.println("These numbers should be the same: " + (Math.log(1.0/4.0) * 4) +
-                        " " + predictor.computeLogLikelihood(freqDist, wordList));
+                        " & " + predictor.computeLogLikelihood(freqDist, wordList));
 
     }
 
