@@ -1,5 +1,5 @@
 /**
- * Nitzan Saar - Assignment 2
+ * Nitzan Saar
  */
 
 import java.io.File;
@@ -88,7 +88,7 @@ public class TestManager {
             hamEmails++;
         }
 
-        /* you extend this to keep track of the number of correctly classified spam and ham, and display the totals
+        /* keep track of the number of correctly classified spam and ham, and display the totals
         * at the end. Only thing to do here*/
         System.out.println("--------------------------------------");
         System.out.println("Results:");

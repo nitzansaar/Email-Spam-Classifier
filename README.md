@@ -1,67 +1,44 @@
-#### Homework 2: Classifying spam emails with Naive Bayes. 
+# Email Classifier Project
 
-##### Due: Sept 23 at the start of class.
+This repository contains code for an email classifier that uses frequency distribution and likelihood calculations to predict whether an email is spam or ham (not spam).
 
-In this homework you'll be implementing a simple machine learning classifier using the Naive Bayes algorithm to determine whether an email is spam or ham.
-This will give you a chance to practice some of the skills you've learned so far and integrate them into a real-world
-application. I've provided a fair amount of code for you to get you started - a lot of your tasks are using or extending existing code.
+## Project Overview
 
-All code should be well-formatted, with no extraneous or commented-out code. Please include your name in a comment at the top of each file.
+The project consists of several classes that work together to classify emails as spam or ham:
 
-This homework will be graded using specifications grading. There are a sequence of tasks to complete. Grades will be assigned as follows:
+- `TestManager`: The main class that orchestrates the classification process. It reads in training and test data, computes log-likelihoods for spam and ham emails, and displays the results.
 
+- `Processor`: This class handles the preprocessing of email text. It removes stopwords, strips punctuation, and filters out junk words. The parsed words are then used for computing frequencies.
 
-- To receive a C, you should complete tasks 1,2,3,4
-- To receive a B, complete all the C-level tasks, plus tasks 5 and 6
-- To receive an A, complete the B-level tasks, plus task 7.
+- `FreqDist`: A wrapper class for a hashmap that stores the frequency distribution of words in the corpus. It tracks how often each word appears and provides methods to access these frequencies.
 
-This description is relatively short - you'll want to refer to the class slides and lecture for details on how to complete these tasks.
+- `Predictor`: This class computes the log-likelihood scores for a list of words given a frequency distribution. It calculates the likelihood of each word occurring in spam and ham emails.
 
-Recall from class that we are going to treat an email as a bag of words. Our problem then becomes one of predicting
-which class (spam or ham) is more likely, given the words in the email.
+## How to Use
 
-Step 1: Processor.
+1. Clone or download the repository to your local machine.
 
-To begin, we need to convert an email into a list of words. While doing so, we also want to remove those words that are not useful.
-We will do this in the Processor class. Processor should work with a single file. It will read it in, convert everything to lower case,
-strip off trailing punctuation, check to see if a word is either a junk word or a stop word, and then return an ArrayList of Strings
-containing the remaining words.
+2. Compile the Java files:
 
-<b>
- Task 1: implement the stripPunctuation, isJunk and isStopword methods.
+javac *.java
 
- Task 2: implement parseFile. 
+3. Run the `TestManager` class to evaluate the email classifier:
 
- Task 3: Create a test class called ProcessorTest that tests this out. It should have a method called test() that calls each of the methods in 
- Processor with some sample data. Use this to check for "edge cases."
-</b>
+java TestManager
 
-Step 2: Now we need to count the number of times a word occurs in a file, or list of files. We'll do this with the FreqDist class.
-This is largely a wrapper for a HashMap, with two additions:
+4. The program will read in training data from the `spamtrain` and `hamtrain` folders and test data from the `spamtest` and `hamtest` folders.
 
- - If a word is not present in a corpus, we'll give it a count of 1.
- - We also want to keep track of how many words we've counted. 
+5. It will compute log-likelihood scores for each email and determine whether it's correctly classified as spam or ham.
 
-I've set this up for you - you'll just need to use the interface.
+6. At the end, the program will display the results, including the number of correct classifications for spam and ham emails and the total score percentage.
 
-<b>
- Task 4: Extend ProcessorTest to make sure that the FreqDist class is tested and that you know how to use it.
-</b>
+## What I Learned
 
-Step 3: Now we want to be able to determine how likely it is that a new email is spam or ham, given the contents of the
- training set. We'll do this with the Predictor class, which has a method that computes the log likelihood, as discussed in the class slides.
+While working on this project, I learned:
 
-<b>
-  Task 5: implement computeLogLikelihood. 
-  Task 6: Extend ProcessorTest once again to check Loglikelihood. You may want to try it on a couple of very simple cases if you're not sure of the results.
-</b>
+- How to preprocess text data for classification tasks by removing stopwords and handling punctuation.
+- How to implement a frequency distribution to track the occurrences of words in a corpus.
+- How to calculate log-likelihood scores for classifying emails as spam or ham.
+- How to design and implement a simple email classifier using basic machine learning concepts.
 
-Step 4:
-
-Get it all running! 
- 
-The TestManager class has a main() that does the actual training and testing. For each email, it prints out "Correct" or "Incorrect".
-
-<b>
- Task 7: Extend the TestManager to keep track of how many emails of each type were classified correctly. (you should be able to classify at least 70% correctly.)
-</b>
+This project provided valuable insights into the process of text classification and laid the foundation for understanding more advanced techniques in the field.

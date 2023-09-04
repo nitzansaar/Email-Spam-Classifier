@@ -41,7 +41,6 @@ public class Processor {
     }
 
     
-    /* you do this one */
     public boolean isStopword(String word) {
         for (int i = 0; i < stopwords.length; i++){
             if(word.equals(stopwords[i])){
@@ -51,8 +50,7 @@ public class Processor {
         return false;
     }
 
-    /* you do this one. */
-    /* let's assume a word is junk if it contains anything except a letter. */
+    /* assume a word is junk if it contains anything except a letter. */
 
     public boolean isJunk(String word) {
         for (int i = 0; i < word.length(); i++){
@@ -63,8 +61,7 @@ public class Processor {
         return false;
     }
 
-    /* you do this one. */
-    /* remove trailing punctuation. You can assume that there is at most one punctuation character at the end of the
+    /* remove trailing punctuation. assume that there is at most one punctuation character at the end of the
     word
      */
     public String stripPunctuation (String w) {
@@ -74,8 +71,7 @@ public class Processor {
         return w;
     }
 
-/* you do this one */
-    /* parseFile should take a filename as input, open the file, read in each token, convert to lower case,
+    /* take a filename as input, open the file, read in each token, convert to lower case,
         check to see if it's in the stopword list, check to see if it's junk, and strip off trailing punctuation.
         Return an ArrayList of Strings representing all words that meet these criteria. processed accordingly. */ 
 
